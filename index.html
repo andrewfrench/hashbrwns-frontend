@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>hashbrwns</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <header>hashbrwns</header>
+        <input type="text" id="main" placeholder="Enter hashtags..." autofocus autocomplete="off" />
+        <div class="button" id="submit">Calculate</div>
+        <div class="tagbox" id="inputs"></div>
+        <div class="tagbox-controls no-select">
+            <div class="tagbox-control" id="clear-input">Clear inputs</div>
+            <div class="tagbox-tip error" id="input-error">Maximum number of input tags reached</div>
+        </div>
+        <div class="tagbox" id="outputs"></div>
+        <div class="tagbox-controls no-select">
+            <div class="tagbox-control" id="ignore-all">Ignore all</div>
+            <div class="tagbox-tip">Click tag to add to input set</div>
+        </div>
+        <div class="tagbox" id="ignore"></div>
+        <div class="tagbox-controls no-select">
+            <div class="tagbox-control" id="clear-ignored">Clear ignored</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
