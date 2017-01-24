@@ -176,9 +176,9 @@ function requestSuggestions() {
         return
     }
 
-    requestURL = "http://localhost:8080/discover?tags=" + inputTags.join(",");
+    requestURL = "http://api.hashbrwns.afren.ch/discover?tags=" + encodeURI(inputTags.join(","));
     if(ignoreTags.length > 0) {
-        requestURL += "&ignore=" + ignoreTags.join(",");
+        requestURL += "&ignore=" + encodeURI(ignoreTags.join(","));
     }
 
     var req = new XMLHttpRequest();

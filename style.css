@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     font-family: sans-serif;
+    margin-bottom: 40px;
 }
 
 #container {
@@ -15,7 +16,7 @@ header {
 
 input#main {
     display: inline-block;
-    width: 504px;
+    width: 100%;
     padding: 6px;
     font-size: 18px;
 }
